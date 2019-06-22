@@ -71,6 +71,7 @@
     <Compile Include="BLL\ComprasRepositorio.cs" />
     <Compile Include="BLL\IRepository.cs" />
     <Compile Include="BLL\RepositorioBase.cs" />
+    <Compile Include="BLL\VentasRepositorio.cs" />
     <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Entidades\Cargos.cs" />
     <Compile Include="Entidades\Categorias.cs" />

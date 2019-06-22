@@ -14,6 +14,5 @@ namespace PatronRepositorio.BLL
             bool Modificar(T entity);
             bool Eliminar(int id);
             List<T> GetList(Expression<Func<T, bool>> expression);
-    
     }
 }

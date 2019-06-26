@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PatronRepositorio.BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace PatronRepositorio
         public Form1()
         {
             InitializeComponent();
+            new RepositorioBase<Estado>().Buscar(1);
         }
     }
 }

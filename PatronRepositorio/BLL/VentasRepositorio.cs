@@ -34,13 +34,10 @@ namespace PatronRepositorio.BLL
 
                 foreach (var item in entity.Detalles)
                 {
-
                     if (item.IdDetalleVenta == 0)
                         contexto.Entry(item).State = EntityState.Added;
                     else
                         contexto.Entry(item).State = EntityState.Modified;
-
-
                 }
 
                 contexto.Entry(entity).State = EntityState.Modified;
